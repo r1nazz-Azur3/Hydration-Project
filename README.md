@@ -1,6 +1,6 @@
 # 💧 Hydration Habit Tracker
 
-A simple desktop app built with **Python** and **PyQt5** that helps you track how much water you've been drinking and gives you friendly feedback with emojis. This was my first project — built to learn GUI programming with PyQt5!
+A simple desktop app built with **Python** and **PyQt5** that helps you track how much water you've been drinking and gives you friendly feedback with emojis. This was my first project built to learn GUI programming with PyQt5!
 
 ---
 
@@ -40,7 +40,7 @@ from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QLineEdit, QPushButt
 from PyQt5.QtCore import Qt
 ```
 
-**Significance:** PyQt5 is split into modules. `QtWidgets` has all the visual building blocks (windows, buttons, text boxes, labels), and `QtCore` has core, non-visual functionality — here it's used for `Qt.AlignCenter`, which controls text alignment.
+**Significance:** PyQt5 is split into modules. `QtWidgets` has all the visual building blocks (windows, buttons, text boxes, labels), and `QtCore` has core, non-visual functionality, here it's used for `Qt.AlignCenter`, which controls text alignment.
 
 ---
 
@@ -71,7 +71,7 @@ self.description_label = QLabel("Getting hydrated enough?")
 - `QLineEdit` → a text box where the user types their water intake
 - `QPushButton` → a clickable button that triggers the advice logic
 
-Storing them as `self.xxx` (instance attributes) is important — it lets you access and update them later from *any* method in the class, like `give_advice()`.
+Storing them as `self.xxx` (instance attributes) is important it lets you access and update them later from *any* method in the class, like `give_advice()`.
 
 ---
 
